@@ -1,4 +1,3 @@
-```c
 /*
  * AdvancedJPEG: Efficient JPEG Optimization Program.
  * http://advancedjpeg.sourceforge.net/
@@ -17,7 +16,7 @@
  * encoding parameters, is a core feature of this program.
  */
 
-#include "advancedjpeg.h"
+#include "optipng.h"
 #include "proginfo.h"
 
 #include <ctype.h>
@@ -27,7 +26,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <jpeglib.h>
+#include <png.h>
+#include <pngxutil.h>
 #include <zlib.h>
 
 #include "bitset.h"
